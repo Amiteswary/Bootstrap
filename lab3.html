@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Bootstap Lab 3</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 3%;
+            line-height: 3.5rem;
+            
+        }
+        .logo{
+            width:50px;
+            height:50px;
+        }
+        .sign-in-heading{
+            line-height: 6.5rem;
+            font-size:xx-large;
+            font-family: 'Roboto', sans-serif;
+        }
+        form{
+            border:solid #ECECEC;
+            border-radius: 5px;
+            background-color: #f5f7f9;
+            margin-left:41%;
+            width:20%;
+            text-align: left;
+            padding: 10px ;
+        }
+       
+        .signup{
+            border:solid #ECECEC ;
+            border-radius: 5px;
+            width:20%;
+            line-height: 2.5rem;
+            margin-top:10px ;
+            margin-left: 41% ;
+        }
+        .nav{
+            
+            margin-left: 40%;
+            margin-top: 35px; 
+        }
+        .nav-item{
+            padding: 0%;
+            font-size:small ;
+        }
+    
+    
+    </style>
+</head>
+<body>
+    
+        <img class="logo" src="gitlogo.png">
+        <h2 class="sign-in-heading">Sign in to GitHub</h2>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control input-box" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+             
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <a href="#" style="float: right;">forgot Password?</a>
+              <input type="password" class="form-control input-box" id="exampleInputPassword1" placeholder="Password">
+            </div>          
+            <button type="submit" class="btn btn-success btn-block">Submit</button>
+          </form>
+          <div class="container signup">
+            <p>New to Git  <a href="#">Creat an account</a></p>
+          </div>
+         <footer class="">
+            <ul class="nav">
+                <li class="nav-item "><a href="#" class="nav-link text-primary">Terms</a> </li>
+                <li class="nav-item "><a href="#" class="nav-link text-primary">Privacy</a></li>
+                <li class="nav-item "><a href="#" class="nav-link text-primary">Security</a></li>
+                <li class="nav-item "><a href="#" class="nav-link text-muted">Contact GitHub</a></li>
+            </ul>
+         </footer>
+  
+</body>
+</html>
